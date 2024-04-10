@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   quadrado: {
     width: "85%",
     height: "90%",
-    borderColor: "#0000cd",
+    borderColor: "deepskyblue",
     borderWidth: 3,
     borderRadius: 20,
     justifyContent: "center",
@@ -30,12 +30,12 @@ const styles = StyleSheet.create({
   caixa: {
     width: "25%",
     height: "5%",
-    borderColor: "#0000cd",
+    borderColor: "deepskyblue",
     borderWidth: 3,
     borderRadius: 20,
     textAlign: "center",
     backgroundColor: "black",
-    color: "blue",
+    color: "deepskyblue",
     marginTop: "1%",
     fontSize: 20,
   },
@@ -43,12 +43,12 @@ const styles = StyleSheet.create({
   button: {
     width: "25%",
     height: "5%",
-    borderColor: "#0000cd",
+    borderColor: "deepskyblue",
     borderWidth: 3,
     borderRadius: 20,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "blue",
+    backgroundColor: "deepskyblue",
     marginTop: "1%",
   },
 
