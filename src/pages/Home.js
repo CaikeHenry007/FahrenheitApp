@@ -14,10 +14,13 @@ export default function Home() {
   const [celsius, setCelsius] = useState("");
   const [resultado, setResultado] = useState("");
 
-  //   constante que faz a conta e modifica o valor da const resultado
   const farenheit = () => {
-    const converter = (celsius * 9) / 5 + 32;
-    setResultado(converter);
+    if (celsius != "") {
+      const converter = (celsius * 9) / 5 + 32;
+      setResultado(converter);
+    } else {
+      alert("Não pode ser vazio");
+    }
   };
 
   return (
