@@ -1,5 +1,7 @@
+// importando o StyleSheet
 import { StyleSheet } from "react-native";
 
+// constante que estiliza o site
 const styles = StyleSheet.create({
   container: {
     flex: 1,
